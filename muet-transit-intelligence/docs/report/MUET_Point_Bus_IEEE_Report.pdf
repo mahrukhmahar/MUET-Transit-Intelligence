@@ -1,0 +1,1001 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Length 12983 >>
+stream
+0.06 0.09 0.16 rg BT /F2 14.5 Tf 44 742.0 Td (Demand-Responsive Scheduling and Fleet Rebalancing for MUET) Tj ET
+0.06 0.09 0.16 rg BT /F2 14.5 Tf 44 724.0 Td (Point Buses: Dual-Objective DES Study) Tj ET
+0.12 0.16 0.24 rg BT /F1 9.5 Tf 44 703.0 Td (Mahrukh Mahar, Fatima Zubair, Nashrah Jahejo, Hafsa Noor) Tj ET
+0.30 0.35 0.44 rg BT /F3 8.4 Tf 44 690.5 Td (Department of Software Engineering, MUET, Jamshoro | Supervisor: Engr. Umer Farooq) Tj ET
+0.8 w 0.20 0.28 0.48 RG 44 681.5 m 568 681.5 l S 0 0 0 RG 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 660.5 Td (ABSTRACT) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 656.5 m 296.0 656.5 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 645.0 Td (Stress tests show the Combined dispatch policy reduces) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 634.7 Td (mean wait on Exam Day from 7.53m to 2.83m and at 1.2x) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 624.4 Td (demand from 4.46m to 2.49m versus Best Static. We) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 614.1 Td (evaluate MUET Jamshoro's Point bus corridor using a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 603.8 Td (Python discrete-event simulation with 30 paired) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 593.5 Td (replications for the normal-day comparison, ten buses,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 583.2 Td (and capacity 50. The Combined policy meets the mean-wait) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 572.9 Td (and 95th-percentile service targets with seven buses,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 562.6 Td (while Best Static at seven buses narrowly misses the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 552.3 Td (mean-wait target \(5.15m versus 5.0m\). On a normal day,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 542.0 Td (mean wait improves from 3.09m to 2.43m, a modest) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 531.7 Td (0.66-minute gain. Passenger-carrying utilization) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 521.4 Td (increases from 44.24% to 54.73%. Ablation indicates) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 511.1 Td (surplus release is the main contributor, rebalancing is) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 500.8 Td (minor, and traffic compensation and urgency scoring show) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 490.5 Td (no measurable effect. Demand and travel assumptions are) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 480.2 Td (synthetic and require field validation.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F3 7.7 Tf 44.0 468.1 Td (Index Terms - Discrete-Event Simulation, Public Transit) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F3 7.7 Tf 44.0 458.3 Td (Scheduling, Fleet Dispatch, Demand-Responsive) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F3 7.7 Tf 44.0 448.5 Td (Operations.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 432.9 Td (I. REQUIREMENTS, CONSTRAINTS &) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 421.4 Td (STAKEHOLDERS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 417.4 m 296.0 417.4 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 405.9 Td (MUET Jamshoro operates a 10-bus Point fleet across an) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 395.6 Td (assumed bidirectional corridor linking Student Teacher) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 385.3 Td (Center \(STC\) and Main Gate \(MG\), serving morning) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 375.0 Td (\(08:00-09:00\) and afternoon \(14:00-15:30\) peaks without) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 364.7 Td (capital fleet expansion.) Tj ET 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 44.0 352.6 Td (TABLE I. SYSTEM CONSTRAINTS & STAKEHOLDER) Tj ET 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 44.0 343.1 Td (CONFLICTS) Tj ET 0 0 0 rg
+0.92 0.94 0.98 rg 44.0 328.3 252.0 12.8 re f 0 0 0 rg
+0.6 w 0.15 0.22 0.38 RG 44.0 341.1 m 296.0 341.1 l S
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 46.5 333.6 Td (Entity) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 101.9 333.6 Td (Constraint / Goal) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 200.2 333.6 Td (Trade-Off / Conflict) Tj ET
+0.4 w 0.35 0.42 0.56 RG 44.0 328.8 m 296.0 328.8 l S 0 0 0 RG
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 322.3 Td (Fleet Cap) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 322.3 Td (Fixed c=10, K=50 pax) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 322.3 Td (Zero new buses permitted) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 317.7 m 296.0 317.7 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 310.9 Td (Anti-Bunch) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 310.9 Td (Min headway >= 2.0 min) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 310.9 Td (Prevents empty chases) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 306.3 m 296.0 306.3 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 299.5 Td (SLA Target) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 299.5 Td (Avg <= 5m, P95 <= 15m) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 299.5 Td (Strained at 1.6x demand) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 294.9 m 296.0 294.9 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 288.1 Td (Students) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 288.1 Td (Min wait, low >10m%) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 288.1 Td (Vs driver rest & gaps) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 283.5 m 296.0 283.5 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 276.7 Td (Drivers) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 276.7 Td (Shift window not enforced) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 268.5 Td (as a constraint) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 276.7 Td (Driver safety/rest) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 268.5 Td (remains external) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 263.7 m 296.0 263.7 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 256.9 Td (Admin) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 101.9 256.9 Td (Max pax util, 0 capex) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 200.2 256.9 Td (Empty runs lower load) Tj ET
+0.6 w 0.15 0.22 0.38 RG 44.0 252.0 m 296.0 252.0 l S 0 0 0 RG 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 236.0 Td (II. CONCEPTUAL MODEL & ORIGINALITY) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 224.5 Td (\(R2\)) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 220.5 m 296.0 220.5 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 209.0 Td (Novelty Claim \(R2\): Unlike isolated threshold rules or) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 198.7 Td (static schedules, our Combined Optimizer integrates \(1\)) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 188.4 Td (traffic-compensated Newell adaptive headway pacing, \(2\)) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 178.1 Td (surplus off-peak vehicle release when >=2 buses idle) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 167.8 Td (locally, \(3\) a normalized dispatch urgency score over) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 157.5 Td (queue ratio, wait pressure, and EWMA arrival rate, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 147.2 Td (\(4\) predictive deadhead rebalancing weighted by) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 136.9 Td (opposite-terminal arrival forecasts.) Tj ET 0 0 0 rg
+0.98 0.99 1.00 rg 316.0 566.5 252.0 104.0 re f
+0.4 w 0.80 0.84 0.90 RG 316.0 566.5 252.0 104.0 re S
+0.91 0.96 0.93 rg 326.0 628.5 54.0 24.0 re f
+0.7 w 0.06 0.55 0.36 RG 326.0 628.5 54.0 24.0 re S
+0.06 0.55 0.36 rg BT /F6 6.2 Tf 331.0 637.5 Td (IDLE) Tj ET
+0.93 0.95 1.00 rg 410.0 628.5 64.0 24.0 re f
+0.7 w 0.26 0.33 0.84 RG 410.0 628.5 64.0 24.0 re S
+0.26 0.33 0.84 rg BT /F6 6.2 Tf 415.0 637.5 Td (BOARDING) Tj ET
+0.92 0.97 0.99 rg 502.0 628.5 58.0 24.0 re f
+0.7 w 0.05 0.45 0.72 RG 502.0 628.5 58.0 24.0 re S
+0.05 0.45 0.72 rg BT /F6 6.2 Tf 507.0 637.5 Td (IN_TRANSIT) Tj ET
+1.00 0.97 0.90 rg 326.0 580.5 68.0 24.0 re f
+0.7 w 0.80 0.45 0.05 RG 326.0 580.5 68.0 24.0 re S
+0.80 0.45 0.05 rg BT /F6 6.2 Tf 331.0 589.5 Td (REPOSITION) Tj ET
+1.00 0.94 0.94 rg 416.0 580.5 62.0 24.0 re f
+0.7 w 0.82 0.18 0.18 RG 416.0 580.5 62.0 24.0 re S
+0.82 0.18 0.18 rg BT /F6 6.2 Tf 421.0 589.5 Td (DELAYED) Tj ET
+0.94 0.95 0.96 rg 500.0 580.5 60.0 24.0 re f
+0.7 w 0.35 0.40 0.48 RG 500.0 580.5 60.0 24.0 re S
+0.35 0.40 0.48 rg BT /F6 6.2 Tf 505.0 589.5 Td (OUT_OF_SVC) Tj ET
+0.7 w 0.30 0.36 0.46 RG
+380.0 640.5 m 410.0 640.5 l S
+474.0 640.5 m 502.0 640.5 l S
+353.0 628.5 m 353.0 604.5 l S
+514.0 628.5 m 458.0 604.5 l S
+531.0 628.5 m 531.0 604.5 l S
+394.0 592.5 m 416.0 592.5 l S
+0 0 0 rg 0 0 0 RG
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 316.0 556.5 Td (Fig. 1. Six-state Point bus lifecycle including 60-min) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 316.0 547.3 Td (breakdown \(OUT_OF_SVC\) and deadhead REPOSITION.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 530.1 Td (III. BASELINE PROVENANCE & M/M/c) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 518.6 Td (CHECK) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 514.6 m 568.0 514.6 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 503.1 Td (Assumed 12-Min Baseline Honesty: No historical MUET gate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 492.8 Td (dispatch logs were supplied; the 12-min static schedule) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 482.5 Td (is explicitly an assumed context reference \(30.75m mean) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 472.2 Td (wait\) calibratable against 3-day Transport Office 5-min) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 461.9 Td (tallies via our CSV importer. All headline claims) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 451.6 Td (benchmark against the grid-searched Best-Tuned Static) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 441.3 Td (Timetable \(8/4/4m\).) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 429.2 Td (Analytical M/M/c \(Erlang-C\) Check: Off-peak corridor) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 418.9 Td (demand \(lambda=3.4/m, mu=2.0/m, c=10\) yields rho=0.17) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 408.6 Td (\(<1, stable\), matching low simulation wait \(2.83m\). At) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 398.3 Td (peak \(13.2 pax/min one-way\), unrebalanced half-fleet) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 388.0 Td (rho=1.4784 >= 1.0 causes classical queue blow-up and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 377.7 Td (ignores K=50 bulk boarding and deadhead rebalancing,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 367.4 Td (proving DES necessity.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 351.3 Td (IV. DUAL OBJECTIVE & CANONICAL) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 339.8 Td (CODE) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 335.8 m 568.0 335.8 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 324.3 Td (Jointly minimize mean wait and maximize) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 314.0 Td (passenger-carrying fleet utilization U_pax =) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 303.7 Td (\(passenger-carrying bus-min\) / \(total active fleet-min\),) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 293.4 Td (excluding empty deadheads. Composite penalty: J =) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 283.1 Td (0.05*AvgWait + 0.01*P95 + 0.004*PctOver10m +) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 272.8 Td (0.002*\(Unserved/10\) + 0.001*\(100 - U_pax\).) Tj ET 0 0 0 rg
+0.95 0.96 0.99 rg 316.0 211.5 252.0 55.2 re f
+0.4 w 0.78 0.83 0.92 RG 316.0 211.5 252.0 55.2 re S
+0.18 0.24 0.50 rg BT /F6 6.8 Tf 321.0 256.7 Td (Snippet 1. NHPP Thinning & 4-Stream CRN Setup \(Python\)) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 246.7 Td (ss = np.random.SeedSequence\(seed\)) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 237.9 Td (s_stc, s_mg, s_trv, s_brd = ss.spawn\(4\)) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 229.1 Td (t += rng.exponential\(1.0 / lambda_max\)) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 220.3 Td (if rng.random\(\) <= lambda_t\(t\) / lambda_max: emit\(t\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.95 0.96 0.99 rg 316.0 155.3 252.0 55.2 re f
+0.4 w 0.78 0.83 0.92 RG 316.0 155.3 252.0 55.2 re S
+0.18 0.24 0.50 rg BT /F6 6.8 Tf 321.0 200.5 Td (Snippet 2. Combined Dispatch Rule \(policies.py\)) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 190.5 Td (if q_len >= K: return True # full load) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 181.7 Td (if idle_here >= 2 and oldest_wait >= 5.5: return True) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 172.9 Td (if urgency_score >= 0.85 or oldest_wait >= 7.5:) Tj ET
+0.08 0.12 0.20 rg BT /F4 6.6 Tf 321.0 164.1 Td (return True) Tj ET
+0 0 0 rg 0 0 0 RG
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 144.3 Td (V. 30-CRN RESULTS & PARETO) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 132.8 Td (TRADE-OFF) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 128.8 m 568.0 128.8 l S 0 0 0 RG
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 1 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 21174 >>
+stream
+0.55 0.60 0.68 rg BT /F5 7.0 Tf 44 756 Td (MUET Point Bus Scheduling & Fleet Rebalancing -- IEEE Technical Report) Tj ET 0 0 0 rg
+0.4 w 0.80 0.83 0.88 RG 44 750 m 568 750 l S 0 0 0 RG
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 44.0 730.0 Td (TABLE II. DUAL-BASELINE 30-CRN COMPARISON) Tj ET 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 44.0 720.5 Td (\(c=10, K=50\)) Tj ET 0 0 0 rg
+0.92 0.94 0.98 rg 44.0 705.7 252.0 12.8 re f 0 0 0 rg
+0.6 w 0.15 0.22 0.38 RG 44.0 718.5 m 296.0 718.5 l S
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 46.5 711.0 Td (Policy) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 117.1 711.0 Td (AvgW) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 152.3 711.0 Td (P95W) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 187.6 711.0 Td (PaxUt%) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 225.4 711.0 Td (Empty%) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 260.7 711.0 Td (Load%) Tj ET
+0.4 w 0.35 0.42 0.56 RG 44.0 706.2 m 296.0 706.2 l S 0 0 0 RG
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 699.7 Td (Current 12m*) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 117.1 699.7 Td (30.75) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 152.3 699.7 Td (87.28) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 187.6 699.7 Td (23.5) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 225.4 699.7 Td (0.00) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 260.7 699.7 Td (74.2) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 695.1 m 296.0 695.1 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 688.3 Td (Best Static) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 117.1 688.3 Td (3.09) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 152.3 688.3 Td (7.14) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 187.6 688.3 Td (44.2) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 225.4 688.3 Td (0.00) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 260.7 688.3 Td (45.1) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 683.7 m 296.0 683.7 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 676.9 Td (Queue-Aware) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 117.1 676.9 Td (10.11) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 152.3 676.9 Td (35.45) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 187.6 676.9 Td (35.7) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 225.4 676.9 Td (0.33) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 260.7 676.9 Td (54.7) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 672.3 m 296.0 672.3 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 46.5 665.5 Td (Adaptive Hw) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 117.1 665.5 Td (13.18) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 152.3 665.5 Td (46.24) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 187.6 665.5 Td (26.1) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 225.4 665.5 Td (0.00) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 260.7 665.5 Td (74.9) Tj ET
+0.25 w 0.88 0.90 0.94 RG 44.0 660.9 m 296.0 660.9 l S
+0.92 0.98 0.95 rg 44.0 650.2 252.0 11.4 re f 0 0 0 rg
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 46.5 654.1 Td (Combined) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 117.1 654.1 Td (2.43) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 152.3 654.1 Td (5.53) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 187.6 654.1 Td (54.7) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 225.4 654.1 Td (0.99) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 260.7 654.1 Td (36.3) Tj ET
+0.6 w 0.15 0.22 0.38 RG 44.0 649.2 m 296.0 649.2 l S 0 0 0 RG 0 0 0 rg
+0.99 0.99 1.00 rg 44.0 529.2 252.0 114.0 re f
+0.4 w 0.80 0.84 0.90 RG 44.0 529.2 252.0 114.0 re S
+0.86 0.24 0.24 rg 52.0 631.2 8 6 re f
+0.15 0.18 0.25 rg BT /F5 6.2 Tf 63.0 632.2 Td (Avg Wait \(m\)) Tj ET
+0.06 0.58 0.42 rg 146.0 631.2 8 6 re f
+0.15 0.18 0.25 rg BT /F5 6.2 Tf 157.0 632.2 Td (Pax Util \(%\)) Tj ET
+0.12 0.16 0.24 rg BT /F6 6.2 Tf 50.0 616.2 Td (Current 12m) Tj ET
+0.86 0.24 0.24 rg 106.0 618.2 148.0 5.2 re f
+0.22 0.26 0.34 rg BT /F5 5.8 Tf 257.0 618.2 Td (30.75m) Tj ET
+0.06 0.58 0.42 rg 106.0 611.7 49.7 5.2 re f
+0.04 0.38 0.26 rg BT /F5 5.8 Tf 158.7 611.7 Td (23.5%) Tj ET
+0.12 0.16 0.24 rg BT /F6 6.2 Tf 50.0 598.2 Td (Best Static) Tj ET
+0.86 0.24 0.24 rg 106.0 600.2 14.9 5.2 re f
+0.22 0.26 0.34 rg BT /F5 5.8 Tf 123.9 600.2 Td (3.09m) Tj ET
+0.06 0.58 0.42 rg 106.0 593.7 93.5 5.2 re f
+0.04 0.38 0.26 rg BT /F5 5.8 Tf 202.5 593.7 Td (44.2%) Tj ET
+0.12 0.16 0.24 rg BT /F6 6.2 Tf 50.0 580.2 Td (Queue-Aware) Tj ET
+0.86 0.24 0.24 rg 106.0 582.2 48.7 5.2 re f
+0.22 0.26 0.34 rg BT /F5 5.8 Tf 157.7 582.2 Td (10.11m) Tj ET
+0.06 0.58 0.42 rg 106.0 575.7 75.5 5.2 re f
+0.04 0.38 0.26 rg BT /F5 5.8 Tf 184.5 575.7 Td (35.7%) Tj ET
+0.12 0.16 0.24 rg BT /F6 6.2 Tf 50.0 562.2 Td (Adaptive Hw) Tj ET
+0.86 0.24 0.24 rg 106.0 564.2 63.4 5.2 re f
+0.22 0.26 0.34 rg BT /F5 5.8 Tf 172.4 564.2 Td (13.18m) Tj ET
+0.06 0.58 0.42 rg 106.0 557.7 55.2 5.2 re f
+0.04 0.38 0.26 rg BT /F5 5.8 Tf 164.2 557.7 Td (26.1%) Tj ET
+0.12 0.16 0.24 rg BT /F6 6.2 Tf 50.0 544.2 Td (Combined) Tj ET
+0.86 0.24 0.24 rg 106.0 546.2 11.7 5.2 re f
+0.22 0.26 0.34 rg BT /F5 5.8 Tf 120.7 546.2 Td (2.43m) Tj ET
+0.06 0.58 0.42 rg 106.0 539.7 115.7 5.2 re f
+0.04 0.38 0.26 rg BT /F5 5.8 Tf 224.7 539.7 Td (54.7%) Tj ET
+0 0 0 rg 0 0 0 RG
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 519.2 Td (Fig. 2. Mean wait \(red, lower better\) vs) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 510.0 Td (passenger-carrying fleet utilization \(green, higher) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 500.8 Td (better\) across all policies.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 487.6 Td (Pareto Trade-off \(Fig. 3\): Combined dominates Best) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 477.3 Td (Static on both objectives-cutting mean wait from 3.09m) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 467.0 Td (to 2.43m while lifting passenger-carrying utilization by) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 456.7 Td (+10.49 pp \(54.73% vs 44.24%\). This exchanges a 0.99%) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 446.4 Td (deadhead ratio and lower per-bus load \(36.27% vs 45.09%\)) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 436.1 Td (for zero >10m queues.) Tj ET 0 0 0 rg
+0.99 0.99 1.00 rg 44.0 308.0 252.0 122.0 re f
+0.4 w 0.80 0.84 0.90 RG 44.0 308.0 252.0 122.0 re S
+0.25 w 0.90 0.92 0.95 RG 74.0 351.5 m 284.0 351.5 l S
+0.25 w 0.90 0.92 0.95 RG 126.5 330.0 m 126.5 416.0 l S
+0.25 w 0.90 0.92 0.95 RG 74.0 373.0 m 284.0 373.0 l S
+0.25 w 0.90 0.92 0.95 RG 179.0 330.0 m 179.0 416.0 l S
+0.25 w 0.90 0.92 0.95 RG 74.0 394.5 m 284.0 394.5 l S
+0.25 w 0.90 0.92 0.95 RG 231.5 330.0 m 231.5 416.0 l S
+0.25 w 0.90 0.92 0.95 RG 74.0 416.0 m 284.0 416.0 l S
+0.25 w 0.90 0.92 0.95 RG 284.0 330.0 m 284.0 416.0 l S
+0.6 w 0.25 0.30 0.40 RG 74.0 330.0 m 284.0 330.0 l S 74.0 330.0 m 74.0 416.0 l S
+0.18 0.22 0.30 rg BT /F5 6.0 Tf 120.0 315.0 Td (Pax-Carrying Utilization (%) -> better) Tj ET
+0.18 0.22 0.30 rg BT /F5 6.0 Tf 48.0 420.0 Td (Wait(m)) Tj ET
+0.85 0.20 0.20 rg 95.6 406.2 3.2 3.2 re f
+0.24 0.38 0.82 rg 182.6 336.2 3.2 3.2 re f
+0.85 0.52 0.08 rg 146.7 354.0 3.2 3.2 re f
+0.52 0.28 0.78 rg 106.5 361.7 3.2 3.2 re f
+0.04 0.58 0.38 rg 226.0 333.8 4.6 4.6 re f
+0.24 0.38 0.82 rg 269.6 348.7 3.2 3.2 re f
+0.04 0.58 0.38 rg 282.4 344.1 3.2 3.2 re f
+0.24 0.38 0.82 rg 221.3 337.8 3.2 3.2 re f
+0.04 0.58 0.38 rg 259.3 335.9 3.2 3.2 re f
+0.24 0.38 0.82 rg 151.0 336.2 3.2 3.2 re f
+0.04 0.58 0.38 rg 194.6 334.2 3.2 3.2 re f
+0.85 0.20 0.20 rg BT /F6 5.6 Tf 91.1 396.9 Td (12m \(30.8m\)) Tj ET
+0.24 0.38 0.82 rg BT /F6 5.6 Tf 126.0 349.8 Td (BestStat \(3.1m, 44%\)) Tj ET
+0.04 0.58 0.38 rg BT /F6 5.6 Tf 206.1 358.1 Td (Combined \(2.4m, 55%\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 298.0 Td (Fig. 3. Pareto frontier \(Avg Wait vs Passenger-Carrying) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 288.8 Td (Utilization %\) across policies and fleet sweep) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 279.6 Td (\(c=4..14\).) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 262.4 Td (VI. FLEET SWEEP \(c=4..14\) &) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 250.9 Td (SENSITIVITY) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 246.9 m 296.0 246.9 l S 0 0 0 RG
+0.99 0.99 1.00 rg 44.0 127.4 252.0 114.0 re f
+0.4 w 0.80 0.84 0.90 RG 44.0 127.4 252.0 114.0 re S
+0.6 w 0.85 0.25 0.25 RG 72.0 164.1 m 284.0 164.1 l S
+0.75 0.15 0.15 rg BT /F6 5.8 Tf 232.0 167.1 Td (SLA <= 5.0m) Tj ET
+0.6 w 0.25 0.30 0.40 RG 72.0 147.4 m 284.0 147.4 l S 72.0 147.4 m 72.0 227.4 l S
+0.18 0.22 0.30 rg BT /F5 5.8 Tf 134.0 133.4 Td (Fleet Size c (buses)) Tj ET
+1.1 w 0.24 0.38 0.82 RG 72.0 205.4 m 93.2 186.5 l 114.4 174.1 l 135.6 164.6 l 156.8 159.8 l 178.0 158.3 l 199.2 157.8 l 220.4 157.8 l 241.6 157.7 l 262.8 157.7 l 284.0 157.7 l S
+0.24 0.38 0.82 rg 70.4 203.8 3.2 3.2 re f
+0.24 0.38 0.82 rg 91.6 184.9 3.2 3.2 re f
+0.24 0.38 0.82 rg 112.8 172.5 3.2 3.2 re f
+0.24 0.38 0.82 rg 134.0 163.0 3.2 3.2 re f
+0.24 0.38 0.82 rg 155.2 158.2 3.2 3.2 re f
+0.24 0.38 0.82 rg 176.4 156.7 3.2 3.2 re f
+0.24 0.38 0.82 rg 197.6 156.2 3.2 3.2 re f
+0.24 0.38 0.82 rg 218.8 156.2 3.2 3.2 re f
+0.24 0.38 0.82 rg 240.0 156.1 3.2 3.2 re f
+0.24 0.38 0.82 rg 261.2 156.1 3.2 3.2 re f
+0.24 0.38 0.82 rg 282.4 156.1 3.2 3.2 re f
+1.1 w 0.04 0.58 0.38 RG 72.0 200.8 m 93.2 181.9 l 114.4 168.1 l 135.6 161.1 l 156.8 157.3 l 178.0 156.3 l 199.2 155.5 l 220.4 155.1 l 241.6 155.0 l 262.8 155.0 l 284.0 154.9 l S
+0.04 0.58 0.38 rg 70.4 199.2 3.2 3.2 re f
+0.04 0.58 0.38 rg 91.6 180.3 3.2 3.2 re f
+0.04 0.58 0.38 rg 112.8 166.5 3.2 3.2 re f
+0.04 0.58 0.38 rg 134.0 159.5 3.2 3.2 re f
+0.04 0.58 0.38 rg 155.2 155.7 3.2 3.2 re f
+0.04 0.58 0.38 rg 176.4 154.7 3.2 3.2 re f
+0.04 0.58 0.38 rg 197.6 153.9 3.2 3.2 re f
+0.04 0.58 0.38 rg 218.8 153.5 3.2 3.2 re f
+0.04 0.58 0.38 rg 240.0 153.4 3.2 3.2 re f
+0.04 0.58 0.38 rg 261.2 153.4 3.2 3.2 re f
+0.04 0.58 0.38 rg 282.4 153.3 3.2 3.2 re f
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 69.0 139.4 Td (4) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 111.4 139.4 Td (6) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 132.6 139.4 Td (7) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 153.8 139.4 Td (8) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 196.2 139.4 Td (10) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 238.6 139.4 Td (12) Tj ET
+0.22 0.26 0.34 rg BT /F5 5.6 Tf 281.0 139.4 Td (14) Tj ET
+0.24 0.38 0.82 rg BT /F6 6.0 Tf 76.0 230.4 Td (Blue: Best Static c>=8) Tj ET
+0.04 0.58 0.38 rg BT /F6 6.0 Tf 176.0 230.4 Td (Green: Combined c>=7) Tj ET
+0 0 0 rg 0 0 0 RG
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 117.4 Td (Fig. 4. Fleet size sweep showing Combined hits SLA) Tj ET 0 0 0 rg
+0.16 0.20 0.28 rg BT /F3 7.2 Tf 44.0 108.2 Td (\(Avg<=5m, P95<=15m\) at c=7 buses vs c=8 for Best Static.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 95.0 Td (Sensitivity Stress: Under 1.6x surge demand, Combined) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 84.7 Td (holds mean wait at 4.02m vs 12.36m for Best Static) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 74.4 Td (\(-67.5%\). Under 2.0x severe traffic delay, Combined) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 730.0 Td (achieves 2.79m vs 3.36m.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 713.9 Td (VII. ABLATION & WHAT-IF SCENARIOS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 709.9 m 568.0 709.9 l S 0 0 0 RG
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 316.0 698.4 Td (TABLE III. ABLATION STUDY \(30 CRN REPS vs) Tj ET 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 316.0 688.9 Td (COMBINED\)) Tj ET 0 0 0 rg
+0.92 0.94 0.98 rg 316.0 674.1 252.0 12.8 re f 0 0 0 rg
+0.6 w 0.15 0.22 0.38 RG 316.0 686.9 m 568.0 686.9 l S
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 318.5 679.4 Td (Variant) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 394.1 679.4 Td (AvgW) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 426.9 679.4 Td (Diff) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 464.7 679.4 Td (P95W) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 499.9 679.4 Td (PaxUt%) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 535.2 679.4 Td (Empty%) Tj ET
+0.4 w 0.35 0.42 0.56 RG 316.0 674.6 m 568.0 674.6 l S 0 0 0 RG
+0.92 0.98 0.95 rg 316.0 664.2 252.0 11.4 re f 0 0 0 rg
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 318.5 668.1 Td (Full Combined) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 394.1 668.1 Td (2.43) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 426.9 668.1 Td (+0.00m) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 464.7 668.1 Td (5.53) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 499.9 668.1 Td (54.7) Tj ET
+0.02 0.35 0.22 rg BT /F6 6.3 Tf 535.2 668.1 Td (0.99) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 663.5 m 568.0 663.5 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 656.7 Td (No Rebalance) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 394.1 656.7 Td (2.57) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 426.9 656.7 Td (+0.14m) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 464.7 656.7 Td (5.85) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 499.9 656.7 Td (54.7) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 535.2 656.7 Td (0.00) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 652.1 m 568.0 652.1 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 645.3 Td (No TrafficComp) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 394.1 645.3 Td (2.43) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 426.9 645.3 Td (-0.00m) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 464.7 645.3 Td (5.52) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 499.9 645.3 Td (54.6) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 535.2 645.3 Td (0.79) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 640.7 m 568.0 640.7 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 633.9 Td (No Surplus) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 394.1 633.9 Td (3.21) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 426.9 633.9 Td (+0.78m) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 464.7 633.9 Td (7.13) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 499.9 633.9 Td (41.0) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 535.2 633.9 Td (6.28) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 629.3 m 568.0 629.3 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 622.5 Td (No Urgency) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 394.1 622.5 Td (2.42) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 426.9 622.5 Td (-0.01m) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 464.7 622.5 Td (5.54) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 499.9 622.5 Td (54.3) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 535.2 622.5 Td (0.50) Tj ET
+0.6 w 0.15 0.22 0.38 RG 316.0 617.6 m 568.0 617.6 l S 0 0 0 RG 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 316.0 605.6 Td (TABLE IV. WHAT-IF STRESS SCENARIOS \(AVG WAIT) Tj ET 0 0 0 rg
+0.08 0.12 0.22 rg BT /F2 7.5 Tf 316.0 596.1 Td (MIN\)) Tj ET 0 0 0 rg
+0.92 0.94 0.98 rg 316.0 581.3 252.0 12.8 re f 0 0 0 rg
+0.6 w 0.15 0.22 0.38 RG 316.0 594.1 m 568.0 594.1 l S
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 318.5 586.6 Td (Scenario) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 379.0 586.6 Td (12m*) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 411.7 586.6 Td (BestStat) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 452.1 586.6 Td (QueueAw) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 489.9 586.6 Td (Combined) Tj ET
+0.06 0.10 0.22 rg BT /F6 6.4 Tf 530.2 586.6 Td (CI Diff) Tj ET
+0.4 w 0.35 0.42 0.56 RG 316.0 581.8 m 568.0 581.8 l S 0 0 0 RG
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 575.3 Td (Normal) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 379.0 575.3 Td (30.75) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 411.7 575.3 Td (3.09) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 452.1 575.3 Td (10.11) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 489.9 575.3 Td (2.43) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 530.2 575.3 Td (-0.66m) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 570.7 m 568.0 570.7 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 563.9 Td (Exam Day) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 379.0 563.9 Td (57.86) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 411.7 563.9 Td (7.53) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 452.1 563.9 Td (17.08) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 489.9 563.9 Td (2.83) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 530.2 563.9 Td (-4.70m) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 559.3 m 568.0 559.3 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 552.5 Td (Rainy) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 379.0 552.5 Td (35.67) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 411.7 552.5 Td (3.93) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 452.1 552.5 Td (11.92) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 489.9 552.5 Td (2.74) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 530.2 552.5 Td (-1.19m) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 547.9 m 568.0 547.9 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 541.1 Td (Breakdown) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 379.0 541.1 Td (31.07) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 411.7 541.1 Td (3.15) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 452.1 541.1 Td (10.70) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 489.9 541.1 Td (2.58) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 530.2 541.1 Td (-0.57m) Tj ET
+0.25 w 0.88 0.90 0.94 RG 316.0 536.5 m 568.0 536.5 l S
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 318.5 529.7 Td (Surge) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 379.0 529.7 Td (30.97) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 411.7 529.7 Td (3.30) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 452.1 529.7 Td (11.51) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 489.9 529.7 Td (2.46) Tj ET
+0.12 0.15 0.22 rg BT /F5 6.3 Tf 530.2 529.7 Td (-0.84m) Tj ET
+0.6 w 0.15 0.22 0.38 RG 316.0 524.8 m 568.0 524.8 l S 0 0 0 RG 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 512.8 Td (Across all 5 operational regimes-including Exam Day) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 502.5 Td (\(2.83m vs 7.53m Best Static\), Rainy Traffic \(2.74m vs) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 492.2 Td (3.93m\), a 60-min PT-01 Breakdown \(2.58m vs 3.15m\), and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 481.9 Td (Sudden Surge \(2.46m vs 3.30m\)-Combined preserves SLA) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 471.6 Td (compliance.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 455.5 Td (VIII. RECOMMENDATIONS TO MUET) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 444.0 Td (TRANSPORT OFFICE) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 440.0 m 568.0 440.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 428.5 Td (1. Immediate Schedule Reform \(Zero Capex\): Replace) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 418.2 Td (uniform 12m headways with an 8m off-peak / 4m peak) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 407.9 Td (timetable, eliminating severe afternoon spillover) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 397.6 Td (without purchasing vehicles.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 385.5 Td (2. Dynamic Gate Dispatch Pilot: Deploy tablet/radio) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 375.2 Td (queue alerts at STC and Main Gate running the Combined) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 364.9 Td (rule, cutting mean wait by an additional 21.2% \(-0.66m,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 354.6 Td (95% CI [-0.7, -0.61]m\) and reducing peak SLA fleet) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 344.3 Td (demand from 8 to 7 buses \(freeing 1 reserve unit for) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 334.0 Td (maintenance\).) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 321.9 Td (3. Cost, Risks & Next Data Step: Implementation requires) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 311.6 Td (only gate coordinator tablets/WhatsApp queue counts; key) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 301.3 Td (operational risk is premature deadheading if supervisors) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 291.0 Td (override queue thresholds. Next: collect 3 days of 5-min) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 280.7 Td (arrival tallies at STC and Main Gate using the included) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 270.4 Td (Field Survey Sheet.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 254.3 Td (IX. LIMITATIONS, THREATS TO) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 242.8 Td (VALIDITY & VALIDATION PLAN) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 238.8 m 568.0 238.8 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 227.3 Td (The model uses synthetic demand profiles and assumed) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 217.0 Td (travel-time distributions; no audited dispatch,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 206.7 Td (passenger-count, or traffic logs were available. Results) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 196.4 Td (are conditional on the corridor, capacity, horizon, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 186.1 Td (calibration choices. The Python simulation is internally) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 175.8 Td (verified and cross-checked against an independent) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 165.5 Td (implementation, but this is not external validation of) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 155.2 Td (real MUET operations. A field pilot should collect) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 144.9 Td (5-minute arrivals, departures, boarding counts, loads,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 134.6 Td (travel times, incidents, and missed service over at) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 124.3 Td (least three teaching days. Calibrate distributions,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 114.0 Td (rerun the same scenarios, and compare predicted and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 103.7 Td (observed queue lengths, waits, departures, and loads) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 93.4 Td (before operational adoption.) Tj ET 0 0 0 rg
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 2 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 14077 >>
+stream
+0.55 0.60 0.68 rg BT /F5 7.0 Tf 44 756 Td (MUET Point Bus Scheduling & Fleet Rebalancing -- IEEE Technical Report) Tj ET 0 0 0 rg
+0.4 w 0.80 0.83 0.88 RG 44 750 m 568 750 l S 0 0 0 RG
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 726.0 Td (RESULTS INTERPRETATION) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 722.0 m 296.0 722.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 710.5 Td (Stress-case outcomes are the most decision-relevant:) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 700.2 Td (Combined reduces mean wait substantially on Exam Day and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 689.9 Td (high-demand scenarios. The normal-day improvement of) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 679.6 Td (0.66 minutes is modest in absolute terms. Best Static at) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 669.3 Td (c=7 narrowly misses the mean-wait SLA \(5.15m vs 5.0m\),) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 659.0 Td (while Combined meets the SLA at c=7. Higher passenger) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 648.7 Td (utilization can come with higher passenger load factor;) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 638.4 Td (these are distinct measures, and the trade-off is more) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 628.1 Td (efficient use of bus-minutes versus comfort, crowding,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 617.8 Td (and wait.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 601.7 Td (MODEL DESIGN AND DATA GENERATION) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 597.7 m 296.0 597.7 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 586.2 Td (The simulation horizon is 510 minutes and the fleet) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 575.9 Td (contains ten vehicles by default, each with capacity 50.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 565.6 Td (The corridor is represented by two terminals and a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 555.3 Td (passenger queue at each terminal. Demand is generated) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 545.0 Td (from time-varying profiles with two directional peaks.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 534.7 Td (Passenger arrivals, travel, boarding, breakdowns, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 524.4 Td (dispatch decisions are represented as discrete events.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 514.1 Td (Travel-time and traffic inputs are assumptions and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 503.8 Td (should be replaced with observed distributions. The) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 493.5 Td (experiment design keeps seeds aligned across policies to) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 483.2 Td (reduce noise in comparisons; the resulting paired) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 472.9 Td (comparisons are meaningful only for this shared) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 462.6 Td (synthetic scenario and do not imply that the generated) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 452.3 Td (arrivals match real MUET demand.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 436.2 Td (DISPATCH RULES AND COMPARISON) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 432.2 m 296.0 432.2 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 420.7 Td (The evaluated policy set includes an illustrative fixed) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 410.4 Td (12-minute schedule, a grid-searched static schedule, a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 400.1 Td (queue-aware rule, an adaptive-headway rule, and the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 389.8 Td (Combined rule. The grid search explores static headways) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 379.5 Td (and chooses the best candidate under the same simulation) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 369.2 Td (objective. The Combined controller uses queue and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 358.9 Td (idle-bus conditions to release surplus capacity and may) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 348.6 Td (reposition vehicles when terminal imbalance is) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 338.3 Td (predicted. The ablation is used to separate the observed) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 328.0 Td (benefit of the surplus-release rule from other) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 317.7 Td (components; it should not be interpreted as a proof of) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 307.4 Td (universal superiority.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 291.3 Td (METRIC DEFINITIONS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 287.3 m 296.0 287.3 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 275.8 Td (Average wait summarizes all simulated passenger waits;) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 265.5 Td (the 95th percentile describes the upper tail. The share) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 255.2 Td (of waits above ten minutes is a threshold indicator,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 244.9 Td (while passengers left unserved at the horizon measure) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 234.6 Td (incomplete service. Passenger utilization is the share) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 224.3 Td (of total fleet bus-minutes spent carrying passengers.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 214.0 Td (Load factor is average occupancy relative to capacity) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 203.7 Td (while passengers are aboard. Empty-run ratio records) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 193.4 Td (dispatches involving empty repositioning. These measures) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 183.1 Td (are not interchangeable: high utilization can coexist) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 172.8 Td (with high load factor and crowding risk, while a low) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 162.5 Td (empty-run ratio does not by itself guarantee low) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 152.2 Td (passenger wait.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 136.1 Td (STRESS TESTING AND INTERPRETATION) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 132.1 m 296.0 132.1 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 120.6 Td (Exam-day, rainy-traffic, breakdown, and sudden-surge) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 110.3 Td (cases provide robustness checks against changes in) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 100.0 Td (demand or service. A stress case should be interpreted) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 89.7 Td (with its assumptions explicit: increased arrivals,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 79.4 Td (slower movement, or loss of a bus are simulated changes) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 69.1 Td (rather than recorded historical events. Results should) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 730.0 Td (be reported with both the absolute wait values and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 719.7 Td (differences from Best Static, not only percentage) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 709.4 Td (improvements. Normal-day gains are modest in absolute) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 699.1 Td (minutes; stress scenarios offer the more consequential) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 688.8 Td (potential service benefit. The fleet sweep compares the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 678.5 Td (number of vehicles required to meet the mean and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 668.2 Td (percentile waiting-time targets.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 652.1 Td (OPERATIONAL PILOT AND DECISION) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 640.6 Td (GATES) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 636.6 m 568.0 636.6 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 625.1 Td (Before deployment, the Transport Office should designate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 614.8 Td (terminal coordinators, define a common clock, and record) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 604.5 Td (passenger arrival counts in five-minute bins, bus) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 594.2 Td (departure and arrival timestamps, boarding and alighting) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 583.9 Td (counts, occupancy, delays, and breakdowns. A short) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 573.6 Td (baseline observation should precede any dispatch) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 563.3 Td (intervention. Model calibration should be performed on) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 553.0 Td (part of the collected data, with a separate holdout day) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 542.7 Td (for validation. Acceptance should require reasonable) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 532.4 Td (agreement in queue-length profiles, average and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 522.1 Td (percentile wait, departures, and load distributions,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 511.8 Td (plus stakeholder review of driver workload, crowding,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 501.5 Td (safety, and communication procedures. Any live pilot) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 491.2 Td (should be supervised and reversible.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 475.1 Td (REPRODUCIBILITY, ETHICS, AND SCOPE) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 471.1 m 568.0 471.1 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 459.6 Td (The experiment output JSON, generated figures, and PDF) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 449.3 Td (are derived from the canonical Python experiment) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 439.0 Td (results. The model does not identify individual) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 428.7 Td (passengers and does not use personal data. It is a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 418.4 Td (planning aid, not a live dispatch authority or a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 408.1 Td (replacement for safety rules, driver judgment, or) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 397.8 Td (transport administration decisions. The current) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 387.5 Td (evaluation is limited to a synthetic two-terminal) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 377.2 Td (representation and a fixed simulation horizon; results) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 366.9 Td (should not be generalized to other routes or operating) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 356.6 Td (conditions without recalibration.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 340.5 Td (SYSTEM BOUNDARIES AND ASSUMPTIONS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 336.5 m 568.0 336.5 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 325.0 Td (The model abstracts a corridor served between two) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 314.7 Td (terminals, with passengers joining terminal queues and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 304.4 Td (buses carrying passengers up to the capacity limit.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 294.1 Td (Passenger arrivals are represented through time-varying) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 283.8 Td (stochastic rates. The default rate profile is a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 273.5 Td (synthetic two-peak shape intended to represent morning) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 263.2 Td (inbound and afternoon outbound concentration; it is not) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 252.9 Td (fitted to a complete observed arrival dataset. Corridor) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 242.6 Td (travel time, traffic delay, boarding time, breakdown) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 232.3 Td (behavior, and fleet availability are also parameterized.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 222.0 Td (The experiment horizon and bus count are fixed for the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 211.7 Td (baseline comparison, while fleet size and demand) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 201.4 Td (multipliers are varied in dedicated experiments. The) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 191.1 Td (scope deliberately omits individual route choice,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 180.8 Td (walking access, passenger destination heterogeneity,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 170.5 Td (transfers, fare effects, and real-time road network) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 160.2 Td (routing. These omissions are important when interpreting) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 149.9 Td (the results because a terminal queue is not a full) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 139.6 Td (representation of all passenger experiences. The model) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 129.3 Td (therefore supports policy comparison within its defined) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 119.0 Td (boundary, rather than predicting every feature of campus) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 108.7 Td (transportation.) Tj ET 0 0 0 rg
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 3 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 14825 >>
+stream
+0.55 0.60 0.68 rg BT /F5 7.0 Tf 44 756 Td (MUET Point Bus Scheduling & Fleet Rebalancing -- IEEE Technical Report) Tj ET 0 0 0 rg
+0.4 w 0.80 0.83 0.88 RG 44 750 m 568 750 l S 0 0 0 RG
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 726.0 Td (EVENT LOGIC AND PASSENGER SERVICE) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 722.0 m 296.0 722.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 710.5 Td (The event model represents passenger arrivals, bus) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 700.2 Td (readiness, boarding, departure, travel, terminal) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 689.9 Td (arrival, and service disruptions. Waiting time is) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 679.6 Td (measured from simulated passenger arrival to boarding.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 669.3 Td (Boarding is limited by vehicle capacity, and passenger) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 659.0 Td (conservation checks compare generated, served, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 648.7 Td (remaining passengers. Buses transition among idle,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 638.4 Td (boarding, transit, traffic-delay, repositioning, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 628.1 Td (out-of-service conditions. A disruption removes service) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 617.8 Td (capacity for a specified period, after which the vehicle) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 607.5 Td (can return to operation. The order and timing of events) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 597.2 Td (affect outcomes: a bus that arrives shortly before a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 586.9 Td (peak queue can reduce wait, while an empty repositioning) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 576.6 Td (trip consumes time without directly serving passengers.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 566.3 Td (Verification checks focus on impossible loads, passenger) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 556.0 Td (accounting, clock monotonicity, and edge cases such as) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 545.7 Td (zero demand. This implementation detail is relevant) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 535.4 Td (because a simulation can produce attractive summary) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 525.1 Td (metrics while violating physical or accounting rules;) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 514.8 Td (verification reduces that risk but does not establish) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 504.5 Td (that assumptions reflect reality.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 488.4 Td (EXPERIMENT DESIGN AND RANDOMNESS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 484.4 m 296.0 484.4 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 472.9 Td (Policy comparisons use a common set of replication seeds) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 462.6 Td (so that each policy experiences aligned stochastic) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 452.3 Td (inputs. This paired design aims to make differences less) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 442.0 Td (sensitive to unrelated random variation. Thirty) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 431.7 Td (replications are used for the principal normal-day) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 421.4 Td (policy comparison, with smaller replication counts for) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 411.1 Td (selected stress scenarios as recorded in the experiment) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 400.8 Td (data. The static timetable search evaluates candidate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 390.5 Td (headways and chooses the best-performing candidate from) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 380.2 Td (the simulated grid. Because the same search data are) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 369.9 Td (used to select and report the schedule, the result is an) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 359.6 Td (optimized in-model benchmark rather than an) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 349.3 Td (independently validated real-world schedule. A future) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 339.0 Td (study should reserve seeds and observed days for a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 328.7 Td (holdout evaluation. The simulation should also examine a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 318.4 Td (wider range of demand profile shapes, travel-time) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 308.1 Td (distributions, and passenger capacity assumptions.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 297.8 Td (Reproducibility is supported by storing the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 287.5 Td (configuration, seeds, result summaries, and generated) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 277.2 Td (artifacts together; a rerun should use the same) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 266.9 Td (environment and configuration to permit exact) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 256.6 Td (comparison.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 240.5 Td (INTERPRETING WAIT AND SERVICE) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 229.0 Td (LEVELS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 225.0 m 296.0 225.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 213.5 Td (Average wait is a useful summary but can hide passengers) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 203.2 Td (who experience long delays. The 95th percentile, the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 192.9 Td (proportion of passengers waiting longer than ten) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 182.6 Td (minutes, and the count left unserved at the end of the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 172.3 Td (horizon provide complementary perspectives. The service) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 162.0 Td (target used here combines an average-wait limit with a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 151.7 Td (tail-wait limit; meeting only one does not satisfy the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 141.4 Td (full target. Reported values are means across) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 131.1 Td (replications, so they are not guarantees for any single) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 120.8 Td (day. The paired confidence interval describes estimated) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 110.5 Td (differences under the model's replication design. A) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 100.2 Td (narrow interval can arise because the simulation inputs) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 89.9 Td (are controlled and paired; it should not be mistaken for) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 79.6 Td (certainty about actual transport operations. The) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 69.3 Td (practical importance of a change should be assessed from) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 730.0 Td (absolute minutes, peak-period outcomes, service) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 719.7 Td (reliability, and stakeholder acceptability in addition) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 709.4 Td (to statistical evidence.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 693.3 Td (UTILIZATION AND CROWDING TRADE-OFF) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 689.3 m 568.0 689.3 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 677.8 Td (Passenger-carrying utilization measures productive bus) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 667.5 Td (time: the fraction of total fleet time during which) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 657.2 Td (vehicles carry passengers. Load factor describes) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 646.9 Td (passenger occupancy relative to vehicle capacity while) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 636.6 Td (carrying passengers. These metrics answer different) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 626.3 Td (questions and should be displayed together. Higher) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 616.0 Td (utilization may indicate less idle time and more) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 605.7 Td (effective deployment, but it can also mean fewer empty) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 595.4 Td (or lightly loaded departures and greater concentration) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 585.1 Td (of riders on trips. The simulation does not provide a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 574.8 Td (comfort, accessibility, or safety assessment of crowded) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 564.5 Td (vehicles. Transport administrators should therefore) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 554.2 Td (review occupancy distributions, wheelchair and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 543.9 Td (accessibility needs, driver breaks, safe boarding, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 533.6 Td (capacity constraints before treating utilization gains) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 523.3 Td (as an operational recommendation. An optimization) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 513.0 Td (objective that rewards productive use should not) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 502.7 Td (override safety, service equity, or passenger comfort.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 492.4 Td (In future work, explicit crowding penalties and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 482.1 Td (accessibility constraints can be incorporated if) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 471.8 Td (validated data and stakeholder priorities are available.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 455.7 Td (SENSITIVITY AND MODEL ROBUSTNESS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 451.7 m 568.0 451.7 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 440.2 Td (Demand and traffic multipliers are used to examine how) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 429.9 Td (policy performance changes as conditions become more) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 419.6 Td (challenging. Fleet sweep results reveal whether service) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 409.3 Td (targets can be met with different vehicle counts under) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 399.0 Td (the assumed scenario. These sweeps are useful for) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 388.7 Td (identifying candidate operating points, but they are not) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 378.4 Td (a substitute for scenario calibration. Multipliers) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 368.1 Td (preserve the underlying synthetic shape and may not) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 357.8 Td (represent the way real exam-day arrivals, weather, road) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 347.5 Td (congestion, or breakdowns interact. A broader) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 337.2 Td (sensitivity study should vary peak timing, peak width,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 326.9 Td (terminal imbalance, boarding rates, capacity, traffic) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 316.6 Td (delay, and the availability of reserve buses. It should) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 306.3 Td (also include unfavorable parameter combinations and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 296.0 Td (report whether the policy remains feasible, not only its) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 285.7 Td (average objective. Stress cases should be selected with) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 275.4 Td (the Transport Office and should include events observed) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 265.1 Td (in field logs rather than solely hypothetical events.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 249.0 Td (ABLATION AND CLAIMS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 245.0 m 568.0 245.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 233.5 Td (The ablation compares the full policy with versions that) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 223.2 Td (disable selected components while holding the broader) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 212.9 Td (experimental setup constant. The stored results indicate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 202.6 Td (that surplus release accounts for most of the observed) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 192.3 Td (reduction in waiting time. Rebalancing contributes a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 182.0 Td (smaller improvement. Removing traffic compensation and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 171.7 Td (urgency scoring does not produce a measurable change in) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 161.4 Td (the tested experiment. This finding narrows the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 151.1 Td (contribution claim: the results support a useful) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 140.8 Td (surplus-release rule in this simulation, not a claim) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 130.5 Td (that every component is necessary or independently) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 120.2 Td (novel. Ablation results are sensitive to the scenario) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 109.9 Td (and the implementation of each component. Further work) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 99.6 Td (should test the component interactions on independently) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 89.3 Td (calibrated demand, additional seeds, and operational) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 79.0 Td (observations. Components with no measured effect in the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 68.7 Td (current setting may be redundant, inactive under the) Tj ET 0 0 0 rg
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 4 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 13793 >>
+stream
+0.55 0.60 0.68 rg BT /F5 7.0 Tf 44 756 Td (MUET Point Bus Scheduling & Fleet Rebalancing -- IEEE Technical Report) Tj ET 0 0 0 rg
+0.4 w 0.80 0.83 0.88 RG 44 750 m 568 750 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 730.0 Td (selected thresholds, or relevant only in other operating) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 719.7 Td (conditions.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 703.6 Td (DATA COLLECTION AND VALIDATION) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 692.1 Td (PROTOCOL) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 688.1 m 296.0 688.1 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 676.6 Td (The recommended data collection sheet should be) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 666.3 Td (completed at both terminals using a synchronized clock.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 656.0 Td (For each five-minute interval, record passenger) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 645.7 Td (arrivals, queue size at interval boundaries, bus) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 635.4 Td (arrivals and departures, boarding counts, approximate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 625.1 Td (occupancy, and observed delays. Record disruptions and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 614.8 Td (the reason for any unscheduled departure. Collect) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 604.5 Td (several teaching days, including normal and high-demand) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 594.2 Td (days, and document timetable or campus events. Split) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 583.9 Td (observations into calibration and validation periods.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 573.6 Td (Calibration should estimate arrival profiles,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 563.3 Td (travel-time distributions, boarding durations, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 553.0 Td (disruption frequency. Validation should compare) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 542.7 Td (independent observed and simulated queue profiles, wait) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 532.4 Td (distributions, departure counts, and occupancy.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 522.1 Td (Differences should be documented and the model revised) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 511.8 Td (before the pilot. The pilot itself should use a small,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 501.5 Td (supervised scope with clear stop criteria, driver) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 491.2 Td (communication, and an operational fallback schedule. A) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 480.9 Td (simulation recommendation should not be used as an) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 470.6 Td (autonomous real-time dispatch instruction until safety) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 460.3 Td (and field validity are established.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 444.2 Td (OPERATIONAL FEASIBILITY AND HUMAN) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 432.7 Td (OVERSIGHT) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 428.7 m 296.0 428.7 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 417.2 Td (The dispatch recommendations assume that terminal staff) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 406.9 Td (can observe queues, communicate with drivers, and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 396.6 Td (coordinate departures without delaying safe operation.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 386.3 Td (The implementation does not model radio reliability,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 376.0 Td (coordinator workload, driver acceptance, schedule) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 365.7 Td (obligations, or competing campus activities in detail.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 355.4 Td (These factors can materially change the feasibility of) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 345.1 Td (dynamic dispatch. A pilot should define who is) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 334.8 Td (authorized to request an unscheduled departure, how) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 324.5 Td (drivers receive and acknowledge instructions, how) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 314.2 Td (departures are logged, and what happens when the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 303.9 Td (communication link is unavailable. Existing timetable) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 293.6 Td (commitments, rest periods, accessibility, and road) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 283.3 Td (safety must remain hard constraints. The fallback should) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 273.0 Td (be the approved timetable rather than an untested) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 262.7 Td (algorithmic decision.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 246.6 Td (STATISTICAL AND SELECTION) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 235.1 Td (UNCERTAINTY) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 231.1 m 296.0 231.1 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 219.6 Td (The static schedule is selected from a finite search) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 209.3 Td (over candidate headways and evaluated in the same) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 199.0 Td (simulation framework. The selection process can favor a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 188.7 Td (schedule because of the particular synthetic demand) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 178.4 Td (shape and seeds used. Confidence intervals for paired) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 168.1 Td (policy differences quantify replication variation within) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 157.8 Td (that framework, but they do not capture uncertainty in) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 147.5 Td (the arrival-rate shape, travel-time distribution,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 137.2 Td (capacity, corridor geometry, or model structure. Those) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 126.9 Td (input uncertainties should be studied with separate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 116.6 Td (ranges or distributions. Reporting should retain the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 106.3 Td (absolute wait metrics, the paired difference, and the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 96.0 Td (assumptions, and should avoid presenting a selected) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 85.7 Td (schedule as a guaranteed real-world optimum. A holdout) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 75.4 Td (simulation design and a field-data validation set would) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 65.1 Td (provide stronger evidence.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 726.0 Td (EQUITY, ACCESSIBILITY, AND SERVICE) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 714.5 Td (COVERAGE) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 710.5 m 568.0 710.5 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 699.0 Td (The aggregate queue model does not distinguish) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 688.7 Td (passengers by mobility needs, schedule flexibility,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 678.4 Td (origin, destination, or access to alternative) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 668.1 Td (transportation. A policy that improves overall mean wait) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 657.8 Td (could still affect a smaller group differently if their) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 647.5 Td (boarding location, timing, or accessibility requirements) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 637.2 Td (are not represented. Evaluation should consider whether) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 626.9 Td (service is consistently available at both terminals,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 616.6 Td (whether passengers with mobility constraints can board) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 606.3 Td (safely, and whether peak-only improvements leave) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 596.0 Td (off-peak needs unmet. The Transport Office should review) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 585.7 Td (these questions with student, faculty, staff, and driver) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 575.4 Td (representatives before changing dispatch practice.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 565.1 Td (Future model versions may represent accessibility dwell) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 554.8 Td (time and distinct service needs when reliable data can) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 544.5 Td (support them.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 528.4 Td (NEXT RESEARCH ITERATION) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 524.4 m 568.0 524.4 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 512.9 Td (A next iteration should first replace synthetic arrival) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 502.6 Td (profiles and assumed travel times with field) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 492.3 Td (observations, then evaluate the policy on a holdout) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 482.0 Td (period and additional scenarios. It should add measured) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 471.7 Td (dwell-time variability, actual terminal departure rules,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 461.4 Td (and validated incident frequency. Alternative objective) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 451.1 Td (weights should be discussed with stakeholders and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 440.8 Td (reported transparently. The analysis should test whether) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 430.5 Td (surplus release remains the dominant component under) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 420.2 Td (different demand profiles and whether rebalancing) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 409.9 Td (becomes more useful when directional imbalance is larger) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 399.6 Td (or persistent. A practical implementation study should) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 389.3 Td (assess staff workload, communication, safety, and the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 379.0 Td (reversibility of the pilot. These steps would move the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 368.7 Td (work from a verified simulation experiment toward) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 358.4 Td (evidence-based decision support, without claiming) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 348.1 Td (operational validity before observations are collected.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 316.0 332.0 Td (RECOMMENDED REPORTING CHECKLIST) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 316.0 328.0 m 568.0 328.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 316.5 Td (For each replication batch, archive the configuration) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 306.2 Td (file, engine version, random seed list, policy) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 295.9 Td (parameters, scenario definitions, and raw summary) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 285.6 Td (metrics. Report both the mean and tail waiting-time) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 275.3 Td (outcomes, passenger utilization, load factor, empty-run) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 265.0 Td (measures, and unserved passengers. Include confidence) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 254.7 Td (intervals for comparisons where the replication design) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 244.4 Td (supports them. Plot the arrival-rate profile and queue) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 234.1 Td (trajectory so the reader can see whether the controller) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 223.8 Td (reacts to demand changes at the expected times. Keep) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 213.5 Td (axis labels, units, and scenario descriptions visible on) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 203.2 Td (every figure. Separate assumptions from observed inputs) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 192.9 Td (and clearly mark synthetic stress cases. The archived) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 182.6 Td (result should allow another team member to reproduce the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 172.3 Td (figures and check that no metric was manually edited) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 162.0 Td (after the simulation. These reporting practices improve) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 151.7 Td (transparency and make it easier to revise the study) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 316.0 141.4 Td (after real transport data are available.) Tj ET 0 0 0 rg
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 5 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 5126 >>
+stream
+0.55 0.60 0.68 rg BT /F5 7.0 Tf 44 756 Td (MUET Point Bus Scheduling & Fleet Rebalancing -- IEEE Technical Report) Tj ET 0 0 0 rg
+0.4 w 0.80 0.83 0.88 RG 44 750 m 568 750 l S 0 0 0 RG
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 726.0 Td (HOW TO USE THE FINDINGS) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 722.0 m 296.0 722.0 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 710.5 Td (The findings should be treated as candidate operating) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 700.2 Td (strategies for discussion, not as an immediate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 689.9 Td (instruction to change all departures. The first decision) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 679.6 Td (is whether the existing static schedule can be improved) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 669.3 Td (with a timetable change that is straightforward for) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 659.0 Td (drivers and students to understand. The second is) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 648.7 Td (whether a supervised queue-based pilot is justified) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 638.4 Td (after data calibration. A pilot should start with) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 628.1 Td (limited operating windows and a designated coordinator,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 617.8 Td (preserve the approved service plan, and record every) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 607.5 Td (departure adjustment. Review outcomes daily and stop the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 597.2 Td (experiment if crowding, missed commitments, unsafe) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 586.9 Td (conditions, or communication failures occur. After the) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 576.6 Td (pilot, compare observed outcomes with the baseline using) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 566.3 Td (the same definitions as the simulation. The) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 556.0 Td (administration should weigh time savings against) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 545.7 Td (workload, reliability, and passenger comfort before) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 8.2 Tf 44.0 535.4 Td (extending the approach.) Tj ET 0 0 0 rg
+0.07 0.13 0.30 rg BT /F2 9.4 Tf 44.0 519.3 Td (REFERENCES) Tj ET 0 0 0 rg
+0.4 w 0.78 0.82 0.90 RG 44.0 515.3 m 296.0 515.3 l S 0 0 0 RG
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 503.8 Td ([1] G. F. Newell, Dispatching Policies for a) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 494.3 Td (Transportation Route, Transportation Science, 1971.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 483.0 Td ([2] J. D. C. Little, A Proof for the Queuing Formula) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 473.5 Td (L=lambda W, Operations Research, 1961.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 462.2 Td ([3] C. F. Daganzo, A Headway-Based Approach to Eliminate) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 452.7 Td (Bus Bunching, Transportation Research B, 2009.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 441.4 Td ([4] J. J. Bartholdi and D. D. Eisenstein, A) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 431.9 Td (Self-Coordinating Bus Route to Resist Bus Bunching,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 422.4 Td (Transportation Research B, 2012.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 411.1 Td ([5] A. Ceder, Public Transit Planning and Operation, 2nd) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 401.6 Td (ed., CRC Press, 2016.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 390.3 Td ([6] A. M. Law, Simulation Modeling and Analysis, 5th) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 380.8 Td (ed., McGraw-Hill, 2015.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 369.5 Td ([7] J. Banks et al., Discrete-Event System Simulation,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 360.0 Td (5th ed., Pearson, 2010.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 348.7 Td ([8] P. A. W. Lewis and G. S. Shedler, Simulation of) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 339.2 Td (Nonhomogeneous Poisson Processes by Thinning, 1979.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 327.9 Td ([9] M. Dessouky et al., Real-Time Control of Buses,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 318.4 Td (Transportation Research C, 2003.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 307.1 Td ([10] M. Ibarra-Rojas et al., Planning, Scheduling and) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 297.6 Td (Control of Bus Transit Systems, Transportation Research) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 288.1 Td (B, 2015.) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 276.8 Td ([11] S. M. Ross, Simulation, 5th ed., Academic Press,) Tj ET 0 0 0 rg
+0.10 0.13 0.18 rg BT /F1 7.4 Tf 44.0 267.3 Td (2013.) Tj ET 0 0 0 rg
+0.45 0.50 0.58 rg BT /F5 7.5 Tf 285 28 Td (Page 6 of 6) Tj ET 0 0 0 rg
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R >> >> /Contents 19 0 R >>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000151 00000 n 
+0000000250 00000 n 
+0000000348 00000 n 
+0000000448 00000 n 
+0000000543 00000 n 
+0000000640 00000 n 
+0000000742 00000 n 
+0000013778 00000 n 
+0000013955 00000 n 
+0000035183 00000 n 
+0000035361 00000 n 
+0000049492 00000 n 
+0000049670 00000 n 
+0000064549 00000 n 
+0000064727 00000 n 
+0000078574 00000 n 
+0000078752 00000 n 
+0000083931 00000 n 
+trailer
+<< /Size 21 /Root 1 0 R >>
+startxref
+84109
+%%EOF

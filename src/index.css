@@ -1,0 +1,107 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-sans: 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080C1A;
+    color: #F1F5F9;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle custom scrollbars matching deep navy theme */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1021;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E294B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334173;
+}
+
+/* Two-column publication styling for IEEE HTML report & Print-to-PDF */
+.ieee-paper-sheet {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ieee-two-column {
+  column-count: 1;
+  column-gap: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+  .ieee-two-column {
+    column-count: 2;
+  }
+}
+
+.ieee-avoid-break {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+@media print {
+  @page {
+    size: letter portrait;
+    margin: 0.55in;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 9.5pt;
+    line-height: 1.38;
+  }
+
+  aside,
+  header,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+
+  .print-main-shell {
+    padding-left: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .ieee-paper-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  .ieee-two-column {
+    column-count: 2 !important;
+    column-gap: 0.28in !important;
+  }
+}
+

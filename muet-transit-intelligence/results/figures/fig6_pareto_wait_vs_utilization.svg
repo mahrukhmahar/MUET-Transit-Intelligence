@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<rect width="720" height="360" fill="#ffffff"/>
+<text x="68" y="26" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Pareto Trade-Off: Average Wait (min) vs. Passenger-Carrying Utilization (%)</text>
+<text x="68" y="42" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#475569">Ideal region is bottom-right (lowest student wait + highest passenger-carrying bus-minutes)</text>
+<line x1="68" y1="306.0" x2="692" y2="306.0" stroke="#e2e8f0"/>
+<text x="60" y="310.0" text-anchor="end" font-family="Courier,monospace" font-size="10" fill="#475569">0.0m</text>
+<line x1="68.0" y1="52" x2="68.0" y2="306" stroke="#f1f5f9"/>
+<text x="68.0" y="336" text-anchor="middle" font-family="Courier,monospace" font-size="10" fill="#475569">0%</text>
+<line x1="68" y1="242.5" x2="692" y2="242.5" stroke="#e2e8f0"/>
+<text x="60" y="246.5" text-anchor="end" font-family="Courier,monospace" font-size="10" fill="#475569">8.8m</text>
+<line x1="224.0" y1="52" x2="224.0" y2="306" stroke="#f1f5f9"/>
+<text x="224.0" y="336" text-anchor="middle" font-family="Courier,monospace" font-size="10" fill="#475569">20%</text>
+<line x1="68" y1="179.0" x2="692" y2="179.0" stroke="#e2e8f0"/>
+<text x="60" y="183.0" text-anchor="end" font-family="Courier,monospace" font-size="10" fill="#475569">17.7m</text>
+<line x1="380.0" y1="52" x2="380.0" y2="306" stroke="#f1f5f9"/>
+<text x="380.0" y="336" text-anchor="middle" font-family="Courier,monospace" font-size="10" fill="#475569">40%</text>
+<line x1="68" y1="115.5" x2="692" y2="115.5" stroke="#e2e8f0"/>
+<text x="60" y="119.5" text-anchor="end" font-family="Courier,monospace" font-size="10" fill="#475569">26.5m</text>
+<line x1="536.0" y1="52" x2="536.0" y2="306" stroke="#f1f5f9"/>
+<text x="536.0" y="336" text-anchor="middle" font-family="Courier,monospace" font-size="10" fill="#475569">60%</text>
+<line x1="68" y1="52.0" x2="692" y2="52.0" stroke="#e2e8f0"/>
+<text x="60" y="56.0" text-anchor="end" font-family="Courier,monospace" font-size="10" fill="#475569">35.4m</text>
+<line x1="692.0" y1="52" x2="692.0" y2="306" stroke="#f1f5f9"/>
+<text x="692.0" y="336" text-anchor="middle" font-family="Courier,monospace" font-size="10" fill="#475569">80%</text>
+<text x="380.0" y="354" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#334155">Passenger-Carrying Fleet Utilization (%)</text>
+<text x="16" y="179.0" transform="rotate(-90 16 179.0)" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#334155">Average Wait Time (min)</text>
+<circle cx="251.0" cy="85.1" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<text x="259.0" y="88.1" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Current (12m) (c=10)</text>
+<circle cx="412.2" cy="283.8" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.2"/>
+<text x="420.2" y="286.8" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Best Static (c=10)</text>
+<circle cx="345.8" cy="233.4" r="6" fill="#0284c7" stroke="#ffffff" stroke-width="1.2"/>
+<text x="353.8" y="236.4" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Queue-Aware (c=10)</text>
+<circle cx="271.2" cy="211.3" r="6" fill="#7c3aed" stroke="#ffffff" stroke-width="1.2"/>
+<text x="279.2" y="214.3" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Adaptive Headway (c=10)</text>
+<circle cx="493.9" cy="288.5" r="6" fill="#059669" stroke="#ffffff" stroke-width="1.2"/>
+<text x="501.9" y="291.5" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Combined Opt. (c=10)</text>
+<circle cx="573.4" cy="248.4" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.2"/>
+<text x="581.4" y="251.4" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Best Static (c=6)</text>
+<circle cx="625.1" cy="261.5" r="4" fill="#059669" stroke="#ffffff" stroke-width="1.2"/>
+<text x="633.1" y="264.5" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Combined Opt. (c=6)</text>
+<circle cx="483.9" cy="279.2" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.2"/>
+<text x="491.9" y="282.2" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Best Static (c=8)</text>
+<circle cx="554.4" cy="284.6" r="4" fill="#059669" stroke="#ffffff" stroke-width="1.2"/>
+<text x="562.4" y="287.6" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Combined Opt. (c=8)</text>
+<circle cx="353.7" cy="283.7" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.2"/>
+<text x="361.7" y="286.7" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Best Static (c=12)</text>
+<circle cx="434.5" cy="289.6" r="4" fill="#059669" stroke="#ffffff" stroke-width="1.2"/>
+<text x="442.5" y="292.6" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#1e293b">Combined Opt. (c=12)</text>
+</svg>

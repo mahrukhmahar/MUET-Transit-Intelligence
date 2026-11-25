@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310">
+<rect width="760" height="310" fill="#ffffff"/>
+<text x="24" y="28" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Fig. 1. Bus Lifecycle State-Transition Diagram (6 Operational States)</text>
+<rect x="28" y="64" width="142" height="58" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.8"/>
+<text x="99" y="89" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e1b4b">IDLE_AT_TERMINAL</text>
+<text x="99" y="106" text-anchor="middle" font-size="9.5" fill="#334155">Parked / Ready</text>
+
+<rect x="228" y="64" width="136" height="58" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="296" y="89" text-anchor="middle" font-size="11" font-weight="bold" fill="#064e3b">BOARDING</text>
+<text x="296" y="106" text-anchor="middle" font-size="9.5" fill="#334155">Bulk load min(Q, K)</text>
+
+<rect x="430" y="64" width="136" height="58" rx="8" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.8"/>
+<text x="498" y="89" text-anchor="middle" font-size="11" font-weight="bold" fill="#0c4a6e">IN_TRANSIT</text>
+<text x="498" y="106" text-anchor="middle" font-size="9.5" fill="#334155">Pax-carrying trip</text>
+
+<rect x="598" y="64" width="142" height="58" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="669" y="89" text-anchor="middle" font-size="11" font-weight="bold" fill="#78350f">DELAYED_IN_TRAFFIC</text>
+<text x="669" y="106" text-anchor="middle" font-size="9.5" fill="#334155">Congestion delay &gt; 2m</text>
+
+<rect x="148" y="196" width="184" height="58" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="240" y="221" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">REPOSITIONING (DEADHEAD)</text>
+<text x="240" y="238" text-anchor="middle" font-size="9.5" fill="#334155">Empty rebalance run</text>
+
+<rect x="430" y="196" width="184" height="58" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="522" y="221" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">OUT_OF_SERVICE</text>
+<text x="522" y="238" text-anchor="middle" font-size="9.5" fill="#334155">60m breakdown maintenance</text>
+
+<line x1="170" y1="93" x2="228" y2="93" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="364" y1="93" x2="430" y2="93" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="566" y1="93" x2="598" y2="93" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="99" y1="122" x2="180" y2="196" stroke="#7c3aed" stroke-width="1.5"/>
+<line x1="498" y1="122" x2="498" y2="196" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<path d="M 498 64 C 498 34, 99 34, 99 64" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+<text x="300" y="42" text-anchor="middle" font-size="9.5" fill="#0284c7">Arrival at opposite terminal -&gt; IDLE_AT_TERMINAL</text>
+</svg>

@@ -1,0 +1,29 @@
+# MUET Point Bus Simulation Configuration (Synthetic / Assumed Baseline)
+# Replace values with verified MUET Transport Office logs when available.
+simulation:
+  duration_minutes: 510          # 07:30 AM to 04:00 PM
+  seed: 42
+  replications: 30
+  baseline_headway_minutes: 12.0
+
+fleet:
+  fleet_size: 10                 # Fixed fleet size c across all policies
+  bus_capacity: 50               # Maximum passenger capacity K per bus
+  travel_mean_minutes: 11.5
+  travel_std_minutes: 2.0
+  boarding_fixed_minutes: 0.7
+  boarding_per_pax_minutes: 0.042
+
+demand:
+  arrival_multiplier: 1.0
+  traffic_severity: 1.0
+  sudden_surge_enabled: false
+  morning_peak_window: [30, 90]    # 08:00 AM - 09:00 AM
+  afternoon_peak_window: [390, 480] # 02:00 PM - 03:30 PM
+
+optimization:
+  queue_aware_threshold_ratio: 0.72
+  min_anti_bunching_headway: 2.8
+  max_wait_guard_minutes: 11.5
+  ewma_alpha: 0.35
+  rebalance_deficit_ratio: 0.52
